@@ -36,4 +36,4 @@ RUN apt-get update && \
 
 EXPOSE 80
 WORKDIR /var/www/html
-ENTRYPOINT ["/run.sh"]
+ENTRYPOINT ["/script/run.sh"]
